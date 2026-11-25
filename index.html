@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Abdullahi | Gaming Profile</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header class="header">
+        <a href="#home" class="logo">Abdullahis Website<span>.com</span></a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#hobbies">Hobbies</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <button class="theme-btn" onclick="changeTheme()">
+            🎨 Theme
+        </button>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+
+        <div class="home-content">
+            <p class="welcome">WELCOME TO MY WEBSITE</p>
+
+            <h1>Hi, I'm <span>Abdullahi</span></h1>
+
+            <h2>Gamer & Future Developer 🎮</h2>
+
+            <p class="description">
+                I love gaming, technology, computers and learning
+                how to build websites and I also like football. Welcome to my personal
+                profile where you can learn more about me!
+            </p>
+
+            <button class="main-btn" onclick="sayHello()">
+                Say Hello 👋
+            </button>
+
+            <a href="#about" class="secondary-btn">
+                Learn More
+            </a>
+        </div>
+
+        <div class="home-image">
+            <img src="images/abdullahi.jpg" alt="Abdullahi profile photo">
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+
+        <h2 class="section-title">About <span>Me</span></h2>
+
+        <div class="about-box">
+            <p>
+                My name is Abdullahi. I am interested in technology,
+                gaming and programming. I enjoy playing video games,
+                discovering new technology and learning how websites work.
+                i also love football
+            </p>
+
+            <p>
+                I am currently learning HTML, CSS and JavaScript.
+                My goal is to become a skilled developer and create
+                amazing websites and projects in the future.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+
+        <h2 class="section-title">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <div class="skill-info">
+                    <h3>computering</h3>
+                    <span>expart</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress html"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <h3>Coding</h3>
+                    <span>Beginner</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress css"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <h3>football</h3>
+                    <span>medium</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress javascript"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <div class="skill-info">
+                    <h3>Gaming</h3>
+                    <span>Expart</span>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress gaming"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Hobbies Section -->
+    <section class="section" id="hobbies">
+
+        <h2 class="section-title">My <span>Hobbies</span></h2>
+
+        <div class="hobby-container">
+
+            <div class="hobby-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDR7gCHFpSK1bBe7yRMYphH_Bedbm2kQZz5owTpKmbzQ&s=10" alt="Gaming setup">
+                <h3>🎮 Gaming</h3>
+                <p>I enjoy playing video games and exploring new games.</p>
+            </div>
+
+            <div class="hobby-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_zw9cplU5OG7zHMSRinzf1utvDmXEy1hnPphl6t1uUA&s" alt="Programming computer">
+                <h3>💻 Coding</h3>
+                <p>I enjoy learning how to code and build websites.</p>
+            </div>
+
+            <div class="hobby-card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8A9FZHnnNJU11CpS0aX8BRwZEBdOWjeU7d5fDmLMgeQ&s" alt="Football match">
+                <h3>⚽ Football</h3>
+                <p>I enjoy football, sports and competition.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+
+        <h2 class="section-title">Contact <span>Me</span></h2>
+
+        <p>Thanks for visiting my personal profile website!</p>
+        <p>(254) 34675910</p>
+
+        <button class="main-btn" onclick="contactMe()">
+            Send Me a Message 📩
+        </button>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Abdullahi | Built with HTML, CSS & JavaScript 💙💜</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
